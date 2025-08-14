@@ -53,7 +53,7 @@ export const Navigation: React.FC<NavigationProps> = ({
                 : 'bg-gray-100 text-gray-600 border-2 border-gray-300 hover:bg-gray-200'
             }`}
           >
-            <span className="block text-sm sm:text-lg font-bold">{question.id}</span>
+            <span className="flex items-center justify-center w-full h-full text-sm sm:text-lg font-bold">{question.id}</span>
             {question.isAttempted && (
               <div className="absolute -top-1 -right-1 w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded-full flex items-center justify-center">
                 <svg className="w-1.5 h-1.5 sm:w-2.5 sm:h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
