@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { Question, QuizQuestion, QuizState, UserAnswer } from '../types/quiz';
+import type { Question, QuizQuestion, QuizState } from '../types/quiz';
 
 const QUIZ_DURATION = 30 * 60; // 30 minutes in seconds
 

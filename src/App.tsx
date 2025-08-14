@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { StartPage } from './components/StartPage';
 import { QuizPage } from './components/QuizPage';
 import { ReportPage } from './components/ReportPage';
